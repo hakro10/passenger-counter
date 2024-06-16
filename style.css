@@ -1,0 +1,81 @@
+/* main div container */
+body {
+	background-color: antiquewhite;
+}
+#counter {
+	width: 480px;
+	height: 600px;
+
+	background-size: cover;
+	background: linear-gradient(rgba(251, 164, 164, 0.5), rgba(9, 9, 9, 0.9)),
+		url(https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTQxZ2h5dWVwbmRiNmRlNXhydnM2dHdrOGQ1OTkwNm1veHlha2toNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/z3q1LO6bj4pqdGajT6/giphy.webp);
+	margin: auto;
+	text-align: center;
+	margin-top: 50px;
+	border-radius: 15px;
+	color: white;
+	padding-bottom: 0;
+}
+/* buttons */
+.btn {
+	width: 150px;
+	padding: 5px;
+	margin: 10px;
+	font-size: 20px;
+	border: none;
+	border-radius: 5px;
+	text-shadow: 0 0 1px white;
+}
+.increese-btn {
+	background: rgb(102, 102, 243);
+}
+.save-btn {
+	background: green;
+}
+.reset-btn {
+	background: red;
+}
+
+/*
+title
+*/
+
+h2 {
+	margin-top: 30px;
+	font-size: 33px;
+	color: rgb(57, 56, 56);
+	margin-bottom: 10px;
+	text-shadow: 0 0 2px white;
+}
+
+/*
+boxes
+*/
+.box-1 {
+	padding-top: 10px;
+	height: 130px;
+	margin-bottom: 40px;
+}
+#entered-el {
+	font-size: 70px;
+	margin-top: 0;
+}
+.box-2 {
+	height: 130px;
+	margin-top: 70px;
+}
+.box-3 {
+	height: 130px;
+	margin-top: 50px;
+	text-shadow: o o 2px rgb(2, 2, 2);
+	font-size: 25px;
+}
+#total-el {
+	font-size: 40px;
+}
+footer {
+	margin: 0;
+	padding: 0 0 0 10px;
+	text-align: left;
+	width: 200px;
+}

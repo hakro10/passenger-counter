@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Passenger Counter</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div id="counter">
+			<!-- box 1 -->
+			<div class="box-1">
+				<h2>Passengers entered:</h2>
+				<h1 id="entered-el">0</h1>
+			</div>
+			<!-- box 2 -->
+			<div class="box-2">
+				<button class="btn increese-btn" onclick="increese()">
+					Increese
+				</button>
+				<button class="btn save-btn" onclick="save()">Save</button>
+				<button class="btn reset-btn" onclick="reset()">Reset</button>
+			</div>
+			<!-- box 3 -->
+			<div class="box-3">
+				<p id="entries-el">Previous entries:</p>
+				<p>Total passengers:</p>
+				<h3 id="total-el">0</h3>
+			</div>
+			<footer>Created by &copy;Auris 2024</footer>
+		</div>
+
+		<script src="index.js"></script>
+	</body>
+</html>
